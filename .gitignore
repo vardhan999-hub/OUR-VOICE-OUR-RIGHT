@@ -1,74 +1,20 @@
-# ───────────── Dependencies ─────────────
 node_modules/
-jspm_packages/
-bower_components/
-web_modules/
+backend/node_modules/
+frontend/node_modules/
 
-# ───────────── Environment Files ─────────────
 .env
-.env.*
-!.env.example
+backend/.env
+frontend/.env
 
-# ───────────── Build Outputs ─────────────
-dist/
-build/
-.next
-out
-.nuxt
-.vuepress/dist
-.temp
-.cache
-.parcel-cache
-.svelte-kit/
-**/.vitepress/dist
-**/.vitepress/cache
-.docusaurus
-.serverless/
-.fusebox/
-.dynamodb/
-.firebase/
-
-# ───────────── Logs ─────────────
 logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
 
-# ───────────── Coverage / Testing ─────────────
-coverage/
-*.lcov
-.nyc_output
-lib-cov
-.vscode-test
-
-# ───────────── Cache / Lock / Temporary ─────────────
-.pids
-*.pid
-*.seed
-*.pid.lock
-.npm
-.eslintcache
-.stylelintcache
-.yarn-integrity
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-.pnp.*
-.node_repl_history
-*.tgz
-.lock-wscript
-*.tsbuildinfo
-
-# ───────────── System Files ─────────────
 .DS_Store
 Thumbs.db
-
-# ───────────── Misc ─────────────
+/dist
+/build
 .vscode/
+.idea/
